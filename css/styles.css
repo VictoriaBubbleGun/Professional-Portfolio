@@ -8,15 +8,12 @@
 body {
   background-color: var(--primary-color);
   color: #ffff;
-  text-align: center;
   padding-top: 20px;
 }
 .hero {
   background-image: url("sky-background.jpg");
   background-size: cover;
   background-position: center;
-
-  padding: 120px;
   border-radius: 20px;
   border: 2px outset var(--secondary-color);
 }
@@ -29,10 +26,20 @@ h1 {
 h2 {
   font-family: "Merriweather", serif;
 }
+.myname {
+  color: var(--third-color);
+}
 .herobutton {
   color: var(--forth-color);
   border: 1.5px solid var(--third-color);
   margin: 20px;
 
   font-family: "Merriweather", serif;
+}
+
+@media (min-width: 700px) {
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
 }
