@@ -37,9 +37,26 @@ h2 {
   font-family: "Merriweather", serif;
 }
 
+.grey {
+  filter: grayscale(80%);
+}
+
+h3 {
+  font-family: "Borel", cursive;
+  color: var(--third-color);
+}
+.round {
+  border-radius: 20px;
+  border: 2px outset var(--secondary-color);
+}
+
 @media (min-width: 700px) {
   .hero {
     padding-top: 100px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+    margin: 20px;
+  }
+  .imgcarousel {
+    width: 50%;
   }
 }
