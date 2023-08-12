@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cycling 🚴‍♂️</title>
+  </head>
+  <style>
+    body {
+      background: linear-gradient(
+        106.5deg,
+        rgba(255, 215, 185, 0.91) 23%,
+        rgba(223, 159, 247, 0.8) 93%
+      );
+      margin: 0 auto;
+      font-family: "Courier New", Courier, monospace;
+    }
+    h1 {
+      background: rgba(111, 37, 112, 0.7);
+      text-align: center;
+      padding: 10px;
+      border-radius: 20px;
+    }
+    .allimages {
+      background: rgba(111, 37, 112, 0.7);
+      padding: 20px;
+      max-width: 400px;
+      display: grid;
+      grid-gap: 20px;
+      border: 2px solid rgba(111, 37, 112, 0.9);
+      border-radius: 20px;
+      margin: 0 auto;
+    }
+    img {
+      display: block;
+      width: 350px;
+      height: 420px;
+      border-radius: 20px;
+      border: 2px solid rgba(111, 37, 112, 0.9);
+      transition: all 2s ease-in-out, filter 10s ease-in-out;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    img:hover {
+      transform: scale(1.25);
+      border: 2px solid midnightblue;
+      filter: opacity(0.2);
+    }
+
+    .bikepacking {
+      border-radius: 20px;
+      text-decoration: none;
+      background: rgba(111, 37, 112, 0);
+    }
+    p {
+      text-align: center;
+      background: rgba(111, 37, 112, 0.7);
+      padding: 10px;
+      border-radius: 20px;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 20px;
+      border: 2px solid midnightblue;
+      background: black;
+      color: rgb(188, 187, 195);
+    }
+    button:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      opacity: 0.6;
+    }
+    .bike {
+      display: block;
+      margin: 0 auto;
+      border-radius: 20px;
+      text-decoration: none;
+      color: rgb(188, 187, 195);
+    }
+    footer {
+      text-align: center;
+      background: rgba(111, 37, 112, 0.7);
+      padding: 10px;
+      border-radius: 20px;
+    }
+    .insta {
+      text-decoration: none;
+      background: rgba(111, 37, 112, 0);
+      color: black;
+    }
+    .dark {
+      background: linear-gradient(
+        109.6deg,
+        rgb(36, 45, 57) 11.2%,
+        rgb(16, 37, 60) 51.2%,
+        rgb(0, 0, 0) 98.6%
+      );
+      color: white;
+    }
+    .dark .allimages {
+      background: rgba(16, 37, 60, 0.5);
+    }
+    .dark button {
+      background: rgb(188, 187, 195);
+      color: black;
+    }
+    .dark .bike {
+      color: black;
+    }
+    .dark h1 {
+      background: rgb(188, 187, 195);
+      color: black;
+    }
+    .dark p {
+      background: rgb(188, 187, 195);
+      color: black;
+    }
+    .dark footer {
+      background: rgb(188, 187, 195);
+      color: black;
+    }
+  </style>
+
+  <body>
+    <br />
+    <br />
+
+    <div class="allimages">
+      <button class="theme">Dark Theme</button>
+      <h1>Cycling</h1>
+
+      <a
+        href="https://eu.alpkit.com/blogs/spotlight/what-is-bikepacking"
+        target="_blank"
+        class="bikepacking"
+        ><img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/440/original/Cyling_Me.jpg?1683754136"
+          alt="Me"
+          class="me"
+      /></a>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/441/original/reparatur.jpg?1683754216"
+        alt="reparatur"
+        class="reparatur"
+      />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/442/original/insel.jpg?1683754258"
+        alt="insel"
+        class="insel"
+      />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/443/original/danemark.jpg?1683754300"
+        alt="danemark"
+        class="danemark"
+      />
+
+      <p>
+        Cycling is for me a feeling of Freedom. <br />
+        The better way to move around. <br />
+        The best Solution when it comes to a greener Way of Transportation.
+        <br />
+        Riding with a Bike can be so much. Action, Fun, Competetion and more.
+        <br />
+        I love to travel with Bike.
+      </p>
+
+      <button>
+        <a href="https://www.cube.eu/de-de/" target="_blank" class="bike"
+          >Get a Bike</a
+        >
+      </button>
+
+      <footer>
+        Coded by<a
+          href="https://www.instagram.com/victoriaroseviolett/"
+          target="_blank"
+          class="insta"
+        >
+          Jennyfer Müller</a
+        >
+      </footer>
+    </div>
+    <br />
+    <br />
+    <script>
+      function darkTheme() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+        if (body.classList.contains("dark")) {
+          themeButton.innerHTML = "Light Theme";
+          bikenow.innerHTML = "Buy Now";
+        } else {
+          return (bikenow.innerHTML = "Get a Bike")(
+            (themeButton.innerHTML = "Dark Theme")
+          );
+        }
+      }
+      let bikenow = document.querySelector(".bike");
+      let themeButton = document.querySelector(".theme");
+      themeButton.addEventListener("click", darkTheme);
+    </script>
+  </body>
+</html>
