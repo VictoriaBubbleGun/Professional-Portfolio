@@ -48,9 +48,22 @@ h3 {
   font-family: "Borel", cursive;
   color: var(--third-color);
 }
+h6 {
+  color: var(--secondary-color);
+  font-family: "Merriweather", serif;
+}
 .round {
   border-radius: 20px;
   border: 2px outset var(--secondary-color);
+}
+.linkGit,
+.carouselCaption {
+  color: var(--third-color);
+  font-family: "Merriweather", serif;
+}
+
+footer {
+  font-family: "Merriweather", serif;
 }
 
 @media (min-width: 700px) {
