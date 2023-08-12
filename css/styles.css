@@ -14,6 +14,7 @@ body {
   );
   color: #ffff;
   padding-top: 20px;
+  font-family: "Merriweather", serif;
 }
 .hero {
   background-image: url("sky-background.jpg");
@@ -27,17 +28,15 @@ h1 {
   padding: 15px;
   font-family: "Borel", cursive;
 }
-h2 {
-  font-family: "Merriweather", serif;
-}
-.myname {
+
+.myname,
+.linkGit {
   color: var(--third-color);
 }
 .herobutton {
   color: var(--forth-color);
   border: 1.5px solid var(--third-color);
   margin: 20px;
-  font-family: "Merriweather", serif;
 }
 
 .grey {
@@ -50,20 +49,10 @@ h3 {
 }
 h6 {
   color: var(--secondary-color);
-  font-family: "Merriweather", serif;
 }
 .round {
   border-radius: 20px;
   border: 2px outset var(--secondary-color);
-}
-.linkGit,
-.carouselCaption {
-  color: var(--third-color);
-  font-family: "Merriweather", serif;
-}
-
-footer {
-  font-family: "Merriweather", serif;
 }
 
 @media (min-width: 700px) {
