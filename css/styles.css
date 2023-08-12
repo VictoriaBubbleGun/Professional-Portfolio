@@ -6,7 +6,12 @@
 }
 
 body {
-  background-color: var(--primary-color);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(57, 62, 70, 1) 100%
+  );
   color: #ffff;
   padding-top: 20px;
 }
