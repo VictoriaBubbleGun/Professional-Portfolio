@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #141010;
+  --secondary-color: #393e46;
+  --third-color: #00adb5;
+  --forth-color: #eeeeee;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(34, 40, 49, 1) 0%,
+    rgb(0, 155, 160) 100%
+  );
+  background-color: rgb(0, 155, 160);
+  background-repeat: no-repeat;
+  font-family: "Merriweather", serif;
+}
+
+h1,
+h3 {
+  font-family: "Borel", cursive;
+  color: var(--primary-color);
+}
+img {
+  max-width: 400px;
+}
+p {
+  color: var(--secondary-color);
+}
+footer {
+  color: var(--primary-color);
+}
+.homepageLink {
+  color: var(--secondary-color);
+  text-decoration: dotted;
+}
+@media (min-width: 700px) {
+  h1 {
+    font-size: 56px;
+  }
+}
