@@ -6,8 +6,9 @@
 }
 
 body {
-  background-color: rgb(247, 7, 118);
   background: linear-gradient(0deg, rgb(247, 7, 118) 0%, rgb(41, 33, 33) 100%);
+  background-color: rgb(247, 7, 118);
+  background-repeat: no-repeat;
   font-family: "Merriweather", serif;
 }
 .head {
@@ -39,8 +40,5 @@ footer {
   }
   .myself {
     max-width: 300px;
-  }
-  .gap {
-    margin-top: 50px;
   }
 }
