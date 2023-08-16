@@ -19,7 +19,7 @@ body {
 h1,
 h3 {
   font-family: "Borel", cursive;
-  color: var(--primary-color);
+  color: var(--third-color);
 }
 img {
   max-width: 400px;

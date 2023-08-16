@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #141010;
+  --secondary-color: #393e46;
+  --third-color: #00adb5;
+  --forth-color: #eeeeee;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(57, 62, 70, 1) 100%
+  );
+  background-color: rgba(57, 62, 70, 1);
+  background-repeat: no-repeat;
+  color: #ffff;
+  padding-top: 20px;
+  font-family: "Merriweather", serif;
+  color: var(--forth-color);
+}
+h1 {
+  font-family: "Borel", cursive;
+}
+.link {
+  text-decoration: none;
+  color: var(--third-color);
+}
+.me {
+  max-width: 100px;
+}
+@media (max-width: 700px) {
+  .email {
+    font-size: 8px;
+  }
+}

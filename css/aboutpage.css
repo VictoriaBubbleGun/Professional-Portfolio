@@ -1,7 +1,7 @@
 :root {
-  --first-color: #f70776;
-  --secondary-color: #c3195d;
-  --third-color: #680747;
+  --first-color: #f707c3;
+  --secondary-color: #c3199e;
+  --third-color: #680762;
   --forth-color: #141010;
 }
 
@@ -9,9 +9,9 @@ body {
   background: linear-gradient(
     180deg,
     rgba(34, 40, 49, 1) 0%,
-    rgba(247, 7, 118, 1) 100%
+    rgb(190, 59, 166) 100%
   );
-  background-color: rgb(247, 7, 118);
+  background-color: rgb(190, 59, 166);
   background-repeat: no-repeat;
   font-family: "Merriweather", serif;
 }
