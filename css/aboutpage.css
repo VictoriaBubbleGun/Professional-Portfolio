@@ -1,0 +1,46 @@
+:root {
+  --first-color: #f70776;
+  --secondary-color: #c3195d;
+  --third-color: #680747;
+  --forth-color: #141010;
+}
+
+body {
+  background-color: rgb(247, 7, 118);
+  background: linear-gradient(0deg, rgb(247, 7, 118) 0%, rgb(41, 33, 33) 100%);
+  font-family: "Merriweather", serif;
+}
+.head {
+  font-family: "Borel", cursive;
+  color: var(--first-color);
+}
+.ab-head {
+  color: var(--first-color);
+  font-family: "Borel", cursive;
+}
+.ab-text {
+  color: var(--forth-color);
+}
+.shecodesLink {
+  color: var(--first-color);
+  text-decoration: dotted;
+}
+footer {
+  color: var(--forth-color);
+}
+.homepageLink {
+  color: var(--third-color);
+  text-decoration: dotted;
+}
+@media (min-width: 700px) {
+  .head {
+    margin-top: 50px;
+    font-size: 48px;
+  }
+  .myself {
+    max-width: 300px;
+  }
+  .gap {
+    margin-top: 50px;
+  }
+}
