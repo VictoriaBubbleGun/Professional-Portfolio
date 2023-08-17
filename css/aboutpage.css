@@ -28,14 +28,14 @@ body {
 }
 .shecodesLink {
   color: var(--first-color);
-  text-decoration: dotted;
+  text-decoration: none;
 }
 footer {
   color: var(--forth-color);
 }
 .homepageLink {
   color: var(--third-color);
-  text-decoration: dotted;
+  text-decoration: none;
 }
 @media (min-width: 700px) {
   .head {
