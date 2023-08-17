@@ -26,7 +26,6 @@ body {
   background-position: center;
   border-radius: 20px;
   border: 2px outset var(--secondary-color);
-  padding-top: 20px;
 }
 
 h1 {
@@ -63,8 +62,8 @@ h6 {
 @media (min-width: 700px) {
   .hero {
     padding-top: 100px;
-    padding-bottom: 100px;
-    margin: 20px;
+    padding-bottom: 70px;
+    margin: 5px 30px 15px 30px;
   }
   .imgcarousel {
     width: 50%;
