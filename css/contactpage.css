@@ -14,9 +14,11 @@ body {
   background-color: rgba(57, 62, 70, 1);
   background-repeat: no-repeat;
   color: #ffff;
-  padding-top: 20px;
   font-family: "Merriweather", serif;
   color: var(--forth-color);
+}
+.favicon {
+  max-width: 30px;
 }
 h1 {
   font-family: "Borel", cursive;
@@ -25,8 +27,7 @@ h1 {
   text-decoration: none;
   color: var(--third-color);
 }
-.me {
-}
+
 .homepageLink {
   color: var(--third-color);
   text-decoration: none;
@@ -34,5 +35,10 @@ h1 {
 @media (max-width: 700px) {
   .email {
     font-size: 8px;
+  }
+}
+@media (min-width: 700px) {
+  .favicon {
+    max-width: 40px;
   }
 }

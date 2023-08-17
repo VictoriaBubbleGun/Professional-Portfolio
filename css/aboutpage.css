@@ -15,6 +15,9 @@ body {
   background-repeat: no-repeat;
   font-family: "Merriweather", serif;
 }
+.favicon {
+  max-width: 30px;
+}
 .head {
   font-family: "Borel", cursive;
   color: var(--first-color);
@@ -25,6 +28,9 @@ body {
 }
 .ab-text {
   color: var(--forth-color);
+}
+.myself {
+  margin-top: 30px;
 }
 .shecodesLink {
   color: var(--first-color);
@@ -44,5 +50,8 @@ footer {
   }
   .myself {
     max-width: 300px;
+  }
+  .favicon {
+    max-width: 40px;
   }
 }

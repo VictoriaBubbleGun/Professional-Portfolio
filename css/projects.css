@@ -15,7 +15,9 @@ body {
   background-repeat: no-repeat;
   font-family: "Merriweather", serif;
 }
-
+.favicon {
+  max-width: 30px;
+}
 h1,
 h3 {
   font-family: "Borel", cursive;
@@ -37,5 +39,8 @@ footer {
 @media (min-width: 700px) {
   h1 {
     font-size: 56px;
+  }
+  .favicon {
+    max-width: 40px;
   }
 }

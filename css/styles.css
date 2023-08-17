@@ -13,8 +13,12 @@ body {
     rgba(57, 62, 70, 1) 100%
   );
   color: #ffff;
-  padding-top: 20px;
+
   font-family: "Merriweather", serif;
+}
+
+.favicon {
+  max-width: 30px;
 }
 .hero {
   background-image: url("sky-background.jpg");
@@ -22,6 +26,7 @@ body {
   background-position: center;
   border-radius: 20px;
   border: 2px outset var(--secondary-color);
+  padding-top: 20px;
 }
 
 h1 {
@@ -66,5 +71,8 @@ h6 {
   }
   h1 {
     font-size: 48px;
+  }
+  .favicon {
+    max-width: 40px;
   }
 }
