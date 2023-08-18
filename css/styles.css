@@ -59,6 +59,10 @@ h6 {
   border: 2px outset var(--secondary-color);
 }
 
+.footerIcons {
+  max-width: 30px;
+}
+
 @media (min-width: 700px) {
   .hero {
     padding-top: 100px;
