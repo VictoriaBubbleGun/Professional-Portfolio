@@ -29,6 +29,9 @@ h1 {
   text-decoration: none;
   color: var(--primary-color);
 }
+.Icons {
+  max-width: 30px;
+}
 footer {
   color: var(--forth-color);
 }
