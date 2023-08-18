@@ -36,6 +36,12 @@ body {
   color: var(--primary-color);
   text-decoration: none;
 }
+.icons {
+  max-width: 60px;
+}
+h6 {
+  color: var(--secondary-color);
+}
 footer {
   color: var(--forth-color);
 }
