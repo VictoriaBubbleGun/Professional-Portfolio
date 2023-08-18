@@ -8,28 +8,32 @@
 body {
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(57, 62, 70, 1) 100%
+    rgba(34, 40, 49, 1) 0%,
+    rgb(0, 173, 181) 100%
   );
-  background-color: rgba(57, 62, 70, 1);
+  background-color: rgb(0, 173, 181);
   background-repeat: no-repeat;
-  color: #ffff;
   font-family: "Merriweather", serif;
-  color: var(--forth-color);
 }
 .favicon {
   max-width: 30px;
 }
 h1 {
   font-family: "Borel", cursive;
+  color: var(--third-color);
+}
+.email {
+  color: var(--forth-color);
 }
 .link {
   text-decoration: none;
-  color: var(--third-color);
+  color: var(--primary-color);
 }
-
+footer {
+  color: var(--forth-color);
+}
 .homepageLink {
-  color: var(--third-color);
+  color: var(--primary-color);
   text-decoration: none;
 }
 @media (max-width: 700px) {

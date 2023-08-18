@@ -1,17 +1,17 @@
 :root {
-  --first-color: #f707c3;
-  --secondary-color: #c3199e;
-  --third-color: #680762;
-  --forth-color: #141010;
+  --primary-color: #141010;
+  --secondary-color: #393e46;
+  --third-color: #00adb5;
+  --forth-color: #eeeeee;
 }
 
 body {
   background: linear-gradient(
     180deg,
     rgba(34, 40, 49, 1) 0%,
-    rgb(190, 59, 166) 100%
+    rgb(0, 173, 181) 100%
   );
-  background-color: rgb(190, 59, 166);
+  background-color: rgb(0, 173, 181);
   background-repeat: no-repeat;
   font-family: "Merriweather", serif;
 }
@@ -20,10 +20,10 @@ body {
 }
 .head {
   font-family: "Borel", cursive;
-  color: var(--first-color);
+  color: var(--third-color);
 }
 .ab-head {
-  color: var(--first-color);
+  color: var(--third-color);
   font-family: "Borel", cursive;
 }
 .ab-text {
@@ -33,14 +33,14 @@ body {
   margin-top: 30px;
 }
 .shecodesLink {
-  color: var(--first-color);
+  color: var(--primary-color);
   text-decoration: none;
 }
 footer {
   color: var(--forth-color);
 }
 .homepageLink {
-  color: var(--third-color);
+  color: var(--primary-color);
   text-decoration: none;
 }
 @media (min-width: 700px) {

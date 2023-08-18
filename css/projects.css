@@ -9,32 +9,35 @@ body {
   background: linear-gradient(
     180deg,
     rgba(34, 40, 49, 1) 0%,
-    rgb(0, 155, 160) 100%
+    rgb(0, 173, 181) 100%
   );
-  background-color: rgb(0, 155, 160);
+  background-color: rgb(0, 173, 181);
   background-repeat: no-repeat;
   font-family: "Merriweather", serif;
 }
 .favicon {
   max-width: 30px;
 }
-h1,
-h3 {
+h1 {
   font-family: "Borel", cursive;
   color: var(--third-color);
+}
+h3 {
+  font-family: "Borel", cursive;
+  color: var(--secondary-color);
 }
 img {
   max-width: 400px;
 }
 p {
-  color: var(--secondary-color);
+  color: var(--forth-color);
 }
 footer {
-  color: var(--primary-color);
+  color: var(--forth-color);
 }
 .homepageLink {
-  color: var(--secondary-color);
-  text-decoration: dotted;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 @media (min-width: 700px) {
   h1 {
