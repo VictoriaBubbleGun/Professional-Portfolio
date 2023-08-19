@@ -42,6 +42,12 @@ body {
 h6 {
   color: var(--secondary-color);
 }
+.bg-second {
+  background-color: rgba(57, 62, 70, 0.3);
+}
+.certificates {
+  max-width: 300px;
+}
 footer {
   color: var(--forth-color);
 }
