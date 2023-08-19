@@ -19,6 +19,7 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,6 +36,7 @@
             src="images/favicon.png"
             alt="favicon"
             class="img-fluid d-flex favicon"
+            title="JM Logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -52,10 +54,22 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="../">Home</a>
-            <a class="nav-link" href="../aboutme.html">About Me</a>
-            <a class="nav-link" href="../projects.html">Projects</a>
-            <a class="nav-link" href="../contactme.html">Contact</a>
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="../"
+              title="Homepage"
+              >Home</a
+            >
+            <a class="nav-link" href="../aboutme.html" title="About Me Page"
+              >About Me</a
+            >
+            <a class="nav-link" href="../projects.html" title="Projects Page"
+              >Projects</a
+            >
+            <a class="nav-link" href="../contactme.html" title="Contact Me Page"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -72,6 +86,7 @@
                 href="https://www.shecodes.io/"
                 target="_blank"
                 class="shecodesLink"
+                title="shecodesLink"
               >
                 Shecodes</a
               >. I have experience in React, HTML, Javascript and much more. I'm
@@ -174,11 +189,15 @@
       <div>
         <div class="row">
           <div class="col justify-content-evenly text-center">
-            <img
-              src="images/AdvancedWebDevelopment.png"
-              class="certificates"
-              alt="AdvancedWebDevelopment"
-            /><br />
+            <a
+              href="images/AdvancedWebDevelopment.png"
+              data-caption="Certificates"
+              data-toggle="lightbox"
+              ><img
+                src="images/AdvancedWebDevelopment.png"
+                class="certificates img-fluid"
+                alt="AdvancedWebDevelopment" /></a
+            ><br />
             <h6 class="text-center p-1">Advanced Web Development</h6>
           </div>
           <div class="col justify-content-evenly text-center">
@@ -210,8 +229,7 @@
     </div>
 
     <footer class="text-center p-4 mt-3">
-      Back to the
-      <a href="../" class="homepageLink">Homepage</a>
+      <a href="../" class="homepageLink"> Back to the Homepage</a>
     </footer>
   </body>
 </html>

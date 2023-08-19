@@ -48,9 +48,7 @@ h6 {
 .certificates {
   max-width: 300px;
 }
-footer {
-  color: var(--forth-color);
-}
+
 .homepageLink {
   color: var(--primary-color);
   text-decoration: none;

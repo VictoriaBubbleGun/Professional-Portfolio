@@ -32,9 +32,7 @@ h1 {
 .Icons {
   max-width: 30px;
 }
-footer {
-  color: var(--forth-color);
-}
+
 .homepageLink {
   color: var(--primary-color);
   text-decoration: none;
