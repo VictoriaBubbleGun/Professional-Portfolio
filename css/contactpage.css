@@ -41,6 +41,9 @@ h1 {
   .email {
     font-size: 8px;
   }
+  .smaller {
+    font-size: 15px !important;
+  }
 }
 @media (min-width: 700px) {
   .favicon {
