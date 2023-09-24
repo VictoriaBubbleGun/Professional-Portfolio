@@ -3,6 +3,7 @@
   --secondary-color: #393e46;
   --third-color: #00adb5;
   --forth-color: #eeeeee;
+  --fifth-color: rgb(170, 170, 170);
 }
 
 body {
@@ -24,8 +25,9 @@ h1 {
 }
 h3 {
   font-family: "Borel", cursive;
-  color: var(--secondary-color);
+  color: var(--fifth-color);
 }
+
 img {
   max-width: 400px;
 }

@@ -47,7 +47,8 @@ h1 {
   filter: grayscale(80%);
 }
 
-h3 {
+h3,
+h4 {
   font-family: "Borel", cursive;
   color: var(--third-color);
 }
